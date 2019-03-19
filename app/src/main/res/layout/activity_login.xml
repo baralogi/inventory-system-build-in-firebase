@@ -12,7 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Login Inventory System"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:text="Login"
         android:textColor="#000000"
         android:textSize="28sp"
         android:textStyle="bold" />
@@ -24,39 +26,35 @@
         android:src="@drawable/warehouse" />
 
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="USERNAME : "
-            android:textColor="#000000" />
-
         <EditText
-            android:id="@+id/etUser"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:id="@+id/Username"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/edittext"
+            android:hint="Username"
+            android:paddingLeft="10dp"
+            android:inputType="textVisiblePassword"/>
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="PASSWORD : "
-
-            android:textColor="#000000" />
-
         <EditText
-            android:id="@+id/etPass"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword" />
+            android:id="@+id/Password"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/edittext"
+            android:hint="Password"
+            android:paddingLeft="10dp"
+            android:inputType="textVisiblePassword" />
     </LinearLayout>
 
     <Button
@@ -64,5 +62,6 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Login" />
 </LinearLayout>
