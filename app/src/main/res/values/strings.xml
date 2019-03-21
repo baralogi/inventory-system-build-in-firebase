@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Inventory System</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
 </resources>
