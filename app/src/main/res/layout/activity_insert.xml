@@ -7,7 +7,7 @@
     android:padding="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".insertBahanbaku">
+    tools:context=".InsertActivity">
     <TextView
         android:id="@+id/txtMenu"
         android:layout_width="wrap_content"
@@ -17,7 +17,7 @@
         android:textSize="21sp"
         android:textStyle="bold"
         android:textColor="#000000"
-        android:text="Tambah Data Bahan Baku"/>
+        android:text="Insert Data"/>
     <EditText
         android:id="@+id/idBarang"
         android:layout_width="match_parent"
